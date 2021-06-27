@@ -65,13 +65,13 @@ class _ChatScreenState extends State<ChatScreen> {
             itemCount: _messages.length,
           ),
         ),
-        // new Divider(height: 1.0),
-        // new Container(
-        //   decoration: new BoxDecoration(
-        //     color: Theme.of(context).cardColor,
-        //   ),
-        //   child: _textComposerWidget(),
-        // ),
+        new Divider(height: 1.0),
+        new Container(
+          decoration: new BoxDecoration(
+            color: Theme.of(context).cardColor,
+          ),
+          child: _textComposerWidget(),
+        ),
       ],
     );
   }
